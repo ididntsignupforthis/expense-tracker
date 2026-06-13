@@ -6,6 +6,7 @@ while True:
     print("1. Add Expense")
     print("2. View Report")
     print("3. Exit")
+    print("4. Show number of expenses")
 
     choice = input("Choose an option: ")
 
@@ -17,7 +18,9 @@ while True:
     elif choice == "2":
         expenses = get_expenses()
         show_report(expenses)
-
+    elif choice == "4":
+        expenses = get_expenses()
+        print(f"Total expenses recorded: {len(expenses)}")
     elif choice == "3":
         print("Goodbye!")
         break
