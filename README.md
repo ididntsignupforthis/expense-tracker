@@ -7,4 +7,4 @@ a simple expense tracker using python
 - Store data in a text file
 
 - ## author
-- yashaswini 
+- yashaswini sharma 
